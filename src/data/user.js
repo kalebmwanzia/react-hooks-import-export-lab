@@ -1,6 +1,19 @@
-const username = "Liza";
-const city = "New York";
+// src/components/About.js
 
-const image = "https://i.imgur.com/mV8PQxj.gif";
+import React from 'react';
+import { image } from '../data/user';
 
-// export all three variables as named exports
+function About() {
+  return (
+    <div>
+      <img src={image} alt="User" />
+      {/* Rest of your About component */}
+    </div>
+  );
+}
+
+export default About;
+
+
+
+
